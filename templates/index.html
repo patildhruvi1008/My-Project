@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voter Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2 style="text-align: center;">Voter Registration Form</h2>
+    <form action="thankyou.html" onsubmit="return validateForm()" method="post" name="myform">
+        <div class="formgroup">
+          <b>First Name : </b>
+          <input type="text" id="firstName" placeholder="Enter Your First Name" required> <br><br>
+          <b>Middle Name : </b>
+          <input type="text" id="middleName" placeholder="Enter Your Middle Name" required> <br><br>
+          <b>Last Name : </b>
+          <input type="text" id="lastName" placeholder="Enter Your Last Name" required> <br><br>
+          <b>Gender : </b>
+          <select id="gender" name="gender">
+              <option value="select">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+          </select> <br><br>
+          <b>Date Of Birth : </b>
+          <input type="date" id="dob" required> <br><br>
+          <b>Age : </b>
+          <input type="number" id="age" placeholder="Enter Your Age" required> <br><br>
+          <b>Email : </b>
+          <input type="email" id="email" placeholder="Enter Your Email" required> <br><br>
+          <b>Phone Number : </b>
+          <input type="text" id="phone" placeholder="Enter Your Phone No" required> <br><br>
+          <b>Aadhar Number : </b>
+          <input type="text" id="aadhar" placeholder="Enter Your Aadhar No" required> <br><br>
+          <b>Address : </b>
+          <input type="text" id="address" placeholder="Enter Your Address" required> <br><br>
+          <button type="submit">Register</button>
+        </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
