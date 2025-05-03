@@ -1,1 +1,5 @@
 flask
+pandas
+scikit-learn
+gunicorn      
+python-dotenv 
